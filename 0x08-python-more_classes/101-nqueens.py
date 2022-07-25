@@ -3,7 +3,7 @@
 
 
 def isSafe(board, row, col):
-    '''Checks if position is safe from attack
+    '''Checks if position is safe from attack.
     Args:
         board: The board state.
         row: The row to check.
@@ -16,10 +16,10 @@ def isSafe(board, row, col):
 
 
 def checkBoard(board, col):
-    '''Checks the board state column by column using backtracking
+    '''Checks the board state column by column using backtracking.
     Args:
-        board: The board state
-        col: The current colum to check
+        board: The board state.
+        col: The current colum to check.
     '''
     n = len(board)
     if col is n:
