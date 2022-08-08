@@ -151,5 +151,5 @@ class Base():
             t.forward(h)
             t.right(90)
             t.end_fill()
-        time.sleep(20)
-        t.bye()
+        time.sleep(20)           # delay for 10 secs
+        t.bye()                  # close window
