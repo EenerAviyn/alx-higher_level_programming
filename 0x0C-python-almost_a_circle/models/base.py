@@ -152,4 +152,4 @@ class Base():
             t.right(90)
             t.end_fill()
         time.sleep(20)
-        t.bye()        
+        t.bye()
