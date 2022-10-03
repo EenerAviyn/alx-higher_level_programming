@@ -1,5 +1,2 @@
 #!/usr/bin/node
-let myOpinion = “C is fun”;
-“Python is cool”;
-“JavaScript is amazing”;
-console.log(myOpinion);
+console.log('C is fun\nPython is cool\nJavaScript is amazing');
